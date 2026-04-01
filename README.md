@@ -1,7 +1,8 @@
 # python-practice-pub
-python の練習用
+python の学習用。生成AIに問題を出してもらい、それを解く。
 
-python-practice/
-├── data_processing/
-    ├──ticket_summary:担当者ごとのチケット数・解決済み数・解決率を返す
+## python-practice
+データ処理の関数を練習
+- 'support_def.py' - 担当者ごとのチケット数・解決率を集計
+
 
