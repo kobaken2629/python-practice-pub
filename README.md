@@ -29,7 +29,7 @@ key = "email"
 key in i   # False → "email" は i に存在しない
 ```
 
-    -  `for key in required_keys` とは、required_keys を1つずつ取り出します
+-  `for key in required_keys` とは、required_keys を1つずつ取り出します
 ```python
 required_keys = ["name", "age", "email"]
 
@@ -41,7 +41,7 @@ for key in required_keys:
 # 3回目: key = "email"
 ```
 
-    - `key in i` と `for key in required_keys` を組み合わせ
+- `key in i` と `for key in required_keys` を組み合わせ
 ```python
 i = {"name": "Taro", "age": 30}
 required_keys = ["name", "age", "email"]
@@ -54,7 +54,7 @@ for key in required_keys:
 # 3回目: key = "email" → "email" in i → False
 ```
 
-    - all() はリストの中が全部 True のときだけ True を返す
+- all() はリストの中が全部 True のときだけ True を返す
 ```python
 all([True, True, True])   # True  → 全部True
 all([True, False, True])  # False → 1つでもFalseがある
