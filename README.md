@@ -62,4 +62,4 @@ all([False, False, False]) # False → 全部False
 ```
 - transform_records 必須キーが揃っているレコードだけ抽出して、キー名を変換して返す
     - for x, data in tmp_result.items(): のパターン,items() は辞書のキーと値を同時に取り出す
-        - # x = キー, data = 値
+        - x = キー, data = 値
