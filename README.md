@@ -63,3 +63,7 @@ all([False, False, False]) # False → 全部False
 - transform_records 必須キーが揃っているレコードだけ抽出して、キー名を変換して返す
     - for x, data in tmp_result.items(): のパターン,items() は辞書のキーと値を同時に取り出す
         - x = キー, data = 値
+
+- `normalize_records(records, mappings)` — コードを名前に変換して返す
+    - key の中の値を取り出す、変換する考え方
+    - 変換テーブル[カテゴリ][変換したい値]
