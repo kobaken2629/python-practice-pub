@@ -67,3 +67,5 @@ all([False, False, False]) # False → 全部False
 - `normalize_records(records, mappings)` — コードを名前に変換して返す
     - key の中の値を取り出す、変換する考え方
     - 変換テーブル[カテゴリ][変換したい値]
+
+- `detect_anomalies(logs, threshold)` — 平均レスポンスタイムよりthreshold倍以上遅いログを返す
