@@ -69,3 +69,5 @@ all([False, False, False]) # False → 全部False
     - 変換テーブル[カテゴリ][変換したい値]
 
 - `detect_anomalies(logs, threshold)` — 平均レスポンスタイムよりthreshold倍以上遅いログを返す
+    - (記載のコードには書いてないが) `len()`　で要素の数をカウント、`SUM()`で合計値を出す
+        - tmp_ave = sum(i["response_time"] for i in logs) / len(logs)
