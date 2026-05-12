@@ -71,3 +71,4 @@ all([False, False, False]) # False → 全部False
 - `detect_anomalies(logs, threshold)` — 平均レスポンスタイムよりthreshold倍以上遅いログを返す
     - (記載のコードには書いてないが) `len()`　で要素の数をカウント、`SUM()`で合計値を出す
         - tmp_ave = sum(i["response_time"] for i in logs) / len(logs)
+- `detect_sales_anomalies(sales, threshold)` — 商品ごとの平均売上からthreshold倍以上乖離している売上を返す
